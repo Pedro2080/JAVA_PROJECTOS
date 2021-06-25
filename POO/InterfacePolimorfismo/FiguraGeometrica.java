@@ -14,6 +14,11 @@ Aplique a interface DimensaoSuperficial em todas as subclasses de Figura2D e Fig
 e aplique a interface DimensaoVolumetrica nas subclasses de Figura3D, implementando
 seus métodos de acordo com as regras de cada figura geométrica (crie os atributos
 necessários).
+
+3- 
+
+Crie pelo menos uma instância de cada classe e adicione em um array do tipo FiguraGeometrica. 
+Itere esse array, imprimindo na tela a area e o volume (quando aplicável).
  
  */
 
