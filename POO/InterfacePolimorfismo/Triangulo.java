@@ -1,6 +1,6 @@
 package com.pedro;
 
-public class Triangulo extends Figura2D {
+public class Triangulo extends Figura2D  implements DimensaoSuperficial{
 	
 	private double base;
 	private double altura;
@@ -18,6 +18,11 @@ public class Triangulo extends Figura2D {
 	}
 	public void setAltura(double altura) {
 		this.altura = altura;
+	}
+	@Override
+	public double calcularArea() {
+		return (altura*base)/2;
+		
 	}
 	
 	
